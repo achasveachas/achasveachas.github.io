@@ -1,23 +1,75 @@
----
-layout: default
----
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, intial-scale=1"/>
+    <title>Learn Verified Student Roster</title>
+    <link rel="stylesheet" href="../css/normalize.css"/>
+    <link rel="stylesheet" href="../css/fonts.css"/>
+    <link rel="stylesheet" href="../css/styles.css"/>
+  </head>
+  <body>
+    <div class="main-wrapper profile">
+      <header class="header">
+        <a href="/">
+          <img class="learn-logo" src="https://s3.amazonaws.com/learn-verified/logo.png"/>
+        </a>
+      </header>
+      <div class="profile-banner" id="yechiel-k-cover"></div>
+      <div class="vitals-container">
+        <div class="profile-photo" id="yechiel-k-card"></div>
+        <div class="social-icon-container">
+          <a href="http://www.github.com/achasveachas"><img class="social-icon" src="https://s3.amazonaws.com/learn-verified/github-icon.png"/></a>
+ -          <a href="https://www.linkedin.com/in/yechiel-kalmenson-ba810511b"><img class="social-icon" src="https://s3.amazonaws.com/learn-verified/linkedin-icon.png"/></a>
+ -          <a href="https://www.facebook.com/yechielshayna.kalmenson"><img class="social-icon" src="../assets/img/facebook.png"/></a>
+        </div>
+        <div class="vitals-text-container">
+          <h1 class="profile-name">Yechiel Kalmenson</h1>
+ -          <h2 class="profile-location">North Woodmere, NY</h2>
+ -          <div class="profile-quote">“In life, there's no such thing as staying where you are. If you are not actively growing you are inevitably falling behind."<br> -The Lubavitcher Rebbe</div>
+        </div>
+      </div>
+      <div class="details-container">
+        <div class="bio-block details-block">
+          <div class="bio-content content-holder">
+            <div class="title-holder">
+              <h3>Biography</h3>
+            </div>
+            <div class="description-holder">
+              <p>Trained as a rabbi, travelled as a volunteer, built souls as a teacher, and now learning as a coder.</p>
+            </div>
+          </div>
+        </div>
+        <div class="education-block details-block">
+          <div class="education-content content-holder">
+            <div class="title-holder">
+              <h3>Education</h3>
+            </div>
+            <div class="description-holder">
+              <h4>United Lubavitch Yeshivah</h4>
+              <h5>Rabbinical Studies</h5>
+-             <h4>Learn.co</h4>
+              <h5>Web Development</h5>
+            </div>
+          </div>
+        </div>
+        <div class="experience-block details-block">
+          <div class="experience-content content-holder">
+            <div class="title-holder">
+              <h3>Experience</h3>
+            </div>
+            <div class="description-holder">
+               <h4>Chabad</h4>
+               <h5>Outreach/volunteering</h5>
+ -             <h4>Shluchim Online School</h4>
+               <h5>Teacher</h5>
+            </div>
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <img class="made-with-love" src="https://s3.amazonaws.com/learn-verified/made-with-love.png"/>
+      </footer>
+    </div>
+  </body>
+</html>
