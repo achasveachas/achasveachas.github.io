@@ -26,13 +26,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #fff;
+  color: #555;
   text-decoration: none;
 }
 
 a:visited {
   text-decoration: none;
-  color: #fff;
+  color: #555;
 }
 
 .main-wrapper {
@@ -48,109 +48,30 @@ a:visited {
 }
 
 .footer {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-weight: bolder;
   position: relative;
   height: 85px;
   background-color: #f1f1f1;
   margin-top: 100px;
 }
 
-.made-with-love {
-  position: absolute;
-  width: 250px;
-  left: 0;
-  right: 0;
-  top: 40px;
-  margin: 0 auto;
-}
 
-/* INDEX.HTML STYLES
-======================== */
 
-.learn-logo {
-  position: absolute;
-  width: 200px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  top: 28px;
-}
 
-.roster-text-container {
-  margin: 0 auto 100px;
-  text-align: center;
-  width: 100%;
-  max-width: 1000px;
-}
-
-.roster-text-container h1 {
-  font-family: "GothamPro-Bold", Helvetica, Arial, sans-serif;
-  font-size: 24px;
-  color: #63bedc;
-  margin-bottom: 5px;
-}
-
-.roster-text-container h2 {
-  width: 75%;
-  margin: 0 auto;
-  font-family: "GothamPro-Light", Helvetica, Arial, sans-serif;
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 1.2em;
-}
-
-.roster-cards-container {
-  max-width: 1000px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-.student-card {
-  position: relative;
- background-image: url("https://learn-verified.s3.amazonaws.com/profile-photo-placeholder.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  max-width: 305px;
-  min-height: 400px;
-  margin: 20px auto;
-  border-radius: 5px;
-}
-
-.student-card:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  background-image: linear-gradient(to top, #000, rgba(0, 0, 0, .0) 50%);
-  border-radius: 5px;
-}
-
-.student-card a {
-  position: relative;
-  display: block;
-  height: 400px;
-}
 
 #yechiel-k-cover {
-  background-image: url("http://i.imgur.com/fcm6zBK.jpg");
+  background-image: url("/images/fcm6zBK.jpg");
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
 }
 
-#yechiel-k-cover:hover {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-}
 
 #yechiel-k-card {
-  background-image: url("http://i.imgur.com/qpM0V8k.jpg");
+  background-image: url("/images/yechiel-k.JPG");
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
   -o-transition: 0.2s;
@@ -164,51 +85,6 @@ a:visited {
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-}
-
-.view-profile-div {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 80px;
-  background-color: #63bedc;
-  border-radius: 0 0 5px 5px;
-  display: none;
-  text-align: center;
-}
-
-.view-profile-text {
-  font-family: "GothamPro-Bold", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-weight: normal;
-  text-transform: uppercase;
-  color: #fff;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.card-text-container {
-  text-align: center;
-  position: absolute;
-  bottom: 30px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-}
-
-.student-name {
-  font-family: "GothamPro", Helvetica, Arial, sans-serif;
-  font-size: 20px;
-  font-weight: normal;
-  margin-bottom: 2px;
-  color: #fff;
-}
-
-.student-location {
-  font-family: "GothamPro-Light", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  margin: 0;
-  color: #888;
 }
 
 /* PROFILE.HTML STYLES
@@ -233,15 +109,15 @@ a:visited {
 }
 
 .social-icon-container {
-  width: 200px;
+  width: 300px;
   margin: 0 auto;
   padding-top: 110px;
   text-align: center;
 }
 
 .social-icon {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   margin: 0 8px;
 }
 
