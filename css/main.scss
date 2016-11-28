@@ -26,13 +26,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #555;
   text-decoration: none;
+  color: #85929d;
 }
 
 a:visited {
   text-decoration: none;
+  color: #85929d;
+}
+
+a:hover {
+  text-decoration: none;
   color: #555;
+}
+
+a.curent {
+  text-decoration: none;
+  color: #555;
+}
+
+nav {
+  padding: 10px;
+  font-family: "GothamPro-Light", Helvetica, Arial, sans-serif;
+  color: #85929d;
+  text-align: center;
 }
 
 .main-wrapper {
@@ -42,7 +59,7 @@ a:visited {
 
 .header {
   position: relative;
-  height: 85px;
+  height: 55px;
   box-shadow: 0 5px 5px #f1f1f1;
   margin-bottom: 100px;
 }
