@@ -57,8 +57,11 @@ nav {
   height: 100%;
 }
 
-.header {
-  position: relative;
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 55px;
   box-shadow: 0 5px 5px #f1f1f1;
   margin-bottom: 100px;
@@ -169,6 +172,11 @@ nav {
 }
 
 .profile-location {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.profile-contact {
   font-size: 18px;
   margin-bottom: 20px;
 }
