@@ -49,9 +49,7 @@ nav {
   padding: 10px;
   font-family: "GothamPro-Light", Helvetica, Arial, sans-serif;
   color: #85929d;
-  background: white;
   text-align: center;
-  z-index: 5;
 }
 
 .main-wrapper {
@@ -67,6 +65,8 @@ header {
   height: 55px;
   box-shadow: 0 5px 5px #f1f1f1;
   margin-bottom: 100px;
+  background: white;
+  z-index: 5;
 }
 
 .footer {
