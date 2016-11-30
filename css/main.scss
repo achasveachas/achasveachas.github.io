@@ -279,6 +279,12 @@ header {
   }
 }
 
+@media only screen and (max-width: 480px) {
+  nav {
+    font-size: 1.5em
+  }
+}
+
 @media only screen and (min-width: 700px) {
   /* index.html */
   .roster-text-container h1 {
